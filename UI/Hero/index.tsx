@@ -5,12 +5,12 @@ import React from 'react'
 export default function Hero() {
   return (
     <div className="container mx-auto">
-        <div className="content flex justify-between">
-          <div className="left flex flex-col gap-4">
+        <div className="content flex justify-between h-full">
+          <div className="left flex flex-col gap-10">
             <h2 className="text-4xl font-bold text-cyan-950">
               Projetos, Pesquisas, Artigos
             </h2>
-            <ul>
+            <ul className='flex flex-col'>
               <li>
                 <span className="text-cyan-950 font-bold">Patrocínio:</span>
                 <p>Torne-se o estímulo para a inovação tecnológica</p>
