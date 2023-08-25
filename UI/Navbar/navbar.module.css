@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navList {
+  display: none;
+  gap: 2.5rem;
+  height: 100%;
+}
+
+.sheetBtn {
+  display: block;
+}
+
+/* GENERAL */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* QUERYS */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .navList {
+    display: flex;
+    gap: 2.5rem;
+    height: 100%;
+  }
+
+  .sheetBtn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    padding: 0 4rem 0 4rem;
+  }
+}
