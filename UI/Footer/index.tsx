@@ -30,8 +30,8 @@ export default function Footer() {
             <ul>
               <li>
                 <EnvelopeIcon />
-                <a href="#">
-                  <span>Colocar email</span>
+                <a href="mailto:lims@ifpi.edu.br">
+                  <span>lims@ifpi.edu.br</span>
                 </a>
               </li>
             </ul>
