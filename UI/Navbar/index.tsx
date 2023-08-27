@@ -19,7 +19,7 @@ export default function NavBar() {
 
         <ul className={style.navList}>
           <li className="font-bold text-[#003351]">
-            <Link href={"#"} className="m-4">
+            <Link href={"#about_us"} className="m-4">
               Sobre Nós
             </Link>
           </li>
@@ -30,7 +30,7 @@ export default function NavBar() {
             <Link href={"#"}>Projetos</Link>
           </li>
           <li className="font-bold text-[#003351]">
-            <Link href={"#"}>Fale Conosco</Link>
+            <Link href={"#fale_conosco"}>Fale Conosco</Link>
           </li>
         </ul>
 
@@ -57,7 +57,7 @@ export default function NavBar() {
             </button>
             <ul className="p-4">
               <li className="font-bold text-[#003351] p-4">
-                <Link href={"#"} className="">
+                <Link href={"#about_us"} className="">
                   Sobre Nós
                 </Link>
               </li>
@@ -68,7 +68,7 @@ export default function NavBar() {
                 <Link href={"#"}>Projetos</Link>
               </li>
               <li className="font-bold text-[#003351]">
-                <Link href={"#"}>Fale Conosco</Link>
+                <Link href={"#fale_conosco"}>Fale Conosco</Link>
               </li>
             </ul>
           </div>

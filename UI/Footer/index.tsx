@@ -5,7 +5,7 @@ import style from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={style.footer}>
+    <footer className={style.footer} id="fale_conosco">
       <div className={style.container}>
         <div className={style.content}>
           <div className={style.left}>
