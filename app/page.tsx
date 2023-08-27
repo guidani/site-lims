@@ -1,3 +1,4 @@
+import Footer from "@/UI/Footer";
 import Hero from "@/UI/Hero";
 import NavBar from "@/UI/Navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="z-20 absolute w-full h-screen">
         <NavBar />
         <Hero />
+        <Footer/>
       </div>
     </main>
   );
