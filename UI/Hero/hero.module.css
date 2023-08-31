@@ -21,13 +21,7 @@
   font-size: 4.25rem;
   line-height: 2.5rem;
   font-weight: 700;
-  color: rgb(8 51 68);
-}
-/* GENERAL */
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
+  color: var(--dark-primary);
 }
 
 /* QUERYS */
@@ -36,12 +30,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .container {
-    padding: 2rem;
-  }
+
 }
 @media only screen and (min-width: 1080px) {
-  .container {
-    padding: 2rem;
-  }
+
 }

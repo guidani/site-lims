@@ -20,7 +20,7 @@
 .MobileWrapper {
   display: none;
   width: 100%;
-  background-color: black;
+  background-color: var(--dark-primary);
   position: fixed;
   top: 0;
   right: 0;
@@ -50,12 +50,12 @@
   font-size: large;
   padding: 1rem 0rem 1rem 1rem;
   /* margin: 1rem 0rem; */
-  border-top: 0.25rem solid #003351;
+  border-top: 0.25rem solid var(--dark-primary);
   flex-grow: 1;
 }
 
 .MobileContainer ul > li:hover {
-  background-color: #003351;
+  background-color: var(--dark-primary);
   color: #fff;
 }
 
@@ -64,18 +64,9 @@
 }
 /* END MOBILE */
 
-/* GENERAL */
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
 
 /* QUERYS */
 @media only screen and (min-width: 768px) {
-  .container {
-    padding: 0 1rem 0 1rem;
-  }
-
   .navList {
     display: flex;
     gap: 2.5rem;
@@ -87,7 +78,5 @@
   }
 }
 @media only screen and (min-width: 1080px) {
-  .container {
-    padding: 0 4rem 0 4rem;
-  }
+
 }

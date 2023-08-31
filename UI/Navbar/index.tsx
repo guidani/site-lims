@@ -12,7 +12,7 @@ export default function NavBar() {
   }
 
   return (
-    <div className={style.container}>
+    <div className="container">
       <div className={style.navbar}>
         {/* <div className="w-28 h-14 bg-[url('/limssmall.png')] bg-center bg-cover  bg-no-repeat"></div> */}
         <img src="limssmall.png" alt="logo lims" width={100} height={64} />

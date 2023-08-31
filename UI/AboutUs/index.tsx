@@ -3,7 +3,7 @@ import style from "./AboutUs.module.css";
 export default function AboutUs() {
   return (
     <section id="about_us">
-      <div className={style.container}>
+      <div className="container">
         <h2 className={style.title_h2}>Sobre nós</h2>
         <div className={style.content}>
           <div className={style.left}>

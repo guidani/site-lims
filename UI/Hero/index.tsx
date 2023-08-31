@@ -3,7 +3,7 @@ import style from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <div className={style.container}>
+    <div className="container">
       <div className={style.hero}>
         <div className={style.leftContent}>
           <h2 className="text-4xl font-bold text-cyan-950">
