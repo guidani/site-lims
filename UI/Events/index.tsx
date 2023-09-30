@@ -1,17 +1,14 @@
-import ProjectCard from "@/components/ProjectCard";
-import styles from "./projects.module.css";
-
-export default function Projects() {
+import EventCard from '@/components/EventCard';
+import styles from './Events.module.css'
+export default function Events() {
   return (
-    <section id="projetos">
+    <section id="eventos">
       <div className="container mx-auto">
-        <h2 className="title_h2 mb-4">Projetos</h2>
+        <h2 className="title_h2 mb-4">Eventos</h2>
         <div className={styles.cardsContainer}>
-          <ProjectCard />
-
-          <ProjectCard />
-
-          <ProjectCard />
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
         </div>
         <div className={styles.sectionFooter}>
           <a href="#" className="">

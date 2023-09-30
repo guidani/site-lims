@@ -23,11 +23,12 @@ export default function NavBar() {
               Sobre Nós
             </Link>
           </li>
+
           <li className="font-bold text-[#003351]">
-            <Link href={"#"}>Equipe</Link>
+            <Link href={"#projetos"}>Projetos</Link>
           </li>
           <li className="font-bold text-[#003351]">
-            <Link href={"#"}>Projetos</Link>
+            <Link href={"#eventos"}>Eventos</Link>
           </li>
           <li className="font-bold text-[#003351]">
             <Link href={"#fale_conosco"}>Fale Conosco</Link>
@@ -62,10 +63,10 @@ export default function NavBar() {
                 </Link>
               </li>
               <li className="font-bold text-[#003351]">
-                <Link href={"#"}>Equipe</Link>
+                <Link href={"#projetos"}>Projetos</Link>
               </li>
               <li className="font-bold text-[#003351]">
-                <Link href={"#"}>Projetos</Link>
+                <Link href={"#eventos"}>Eventos</Link>
               </li>
               <li className="font-bold text-[#003351]">
                 <Link href={"#fale_conosco"}>Fale Conosco</Link>
